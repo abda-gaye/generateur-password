@@ -1,0 +1,62 @@
+body{
+    font-family: 'lato';
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container1{
+    border: 1px solid midnightblue;
+    width: 600px;
+    height: 400px;
+background-color:rgba(25, 25, 112, 0.861);
+margin-right: 12px;
+}
+
+input[type="text"]{
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:midnightblue;
+    color: #fff;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 12px;
+    margin-left: 1px;
+    color: #fff;
+}
+button{
+    background-color: orange;
+    padding: 13px 15px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 18px;
+    margin-left: 40px;
+    color: midnightblue;
+    font-weight: 900;
+}
+.copy{
+    position: absolute;
+    display: inline;
+    padding: 6px;
+    background-color: #fff;
+    right: 119px;
+    top: 12px;
+    cursor: pointer;
+}
+.text1{
+    position: relative;
+   
+
+}
